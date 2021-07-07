@@ -137,7 +137,7 @@ For running application just run it on Intellij or by maven command - like a sim
 For the demo and to see the results on the browser, you can hit on below endpoint:
 `http://localhost:8080/consumeTransaction`
 
-Demo data is loading from {LoadDataService|www.wp.pl}.
+Demo data is loading from [LoadDataService](https://github.com/mlepecki/recruitmentAppQA/blob/main/src/main/java/com/sm/recruitment/app/services/LoadDataService.java)
 
 ---
 
