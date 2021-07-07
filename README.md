@@ -1,6 +1,6 @@
 # Business Background
 
-Below APP is using by clients who have auto fleet. 
+Below APP is using by clients who have an auto fleet. 
 Clients use app for calculate discount for their cars tenants. 
 Once per month, client are sending raw data (plain list of transactions from all the tenants). 
 APP consume the transactions in two steps: 
