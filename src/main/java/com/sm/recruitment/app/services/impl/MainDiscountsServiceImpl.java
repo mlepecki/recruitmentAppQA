@@ -35,7 +35,7 @@ public class MainDiscountsServiceImpl implements MainDiscountsService {
         final List<Transaction> transactionWithTypeDiscount = transactionTypeDiscountService.addDiscount(transactions, transactionType);
         final List<Transaction> transactionWithTypeAndDateDiscount = transactionDateDiscountService.addDiscount(transactionWithTypeDiscount);
 
-        return transactionWithPeriodicityAndDateDiscount;
+        return transactionWithTypeAndDateDiscount;
     }
 
 }
